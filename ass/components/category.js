@@ -26,7 +26,7 @@ const Category = () => {
     <View style={styles.container}>
       <ScrollView>
         <Text style={styles.Header2}>Categories</Text>
-        <View style={styles.firstRow}>
+        <View style={styles.Box}>
           <View>
             <TextInput editable={false} selectTextOnFocus={false} style={styles.categoryBox}/>
             <Text style={{fontWeight: 'bold', marginTop: -180, marginLeft: 12}}>Exercise</Text>
